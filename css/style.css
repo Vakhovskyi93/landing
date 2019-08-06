@@ -1,0 +1,208 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: grey
+}
+.container{
+    max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+/* h12345
+*/
+h1,h2,h3,h5,h6,h4{
+	font-family: 'Dosis', sans-serif;
+}
+h1{
+	font-size: 18px;
+	/* letter-spacing: 1.3em; */
+	font-family: 'Times New Roman', sans-serif;
+	text-transform: uppercase;
+	
+	
+	
+
+}
+.preloadP{
+	font-size: 19px;
+	font-family: 'Times New Roman', sans-serif;
+	padding-top: 100px;
+	justify-content: center;
+}
+ 
+/* header*/
+.headerNav{
+	display: flex;
+	/* justify-content: space-between; */
+	flex-direction: column;
+	align-items: center;
+	padding: 25px 0 
+}
+ul{
+	display: flex;
+	/* justify-content: space-between; */
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+	
+	 
+}
+li{
+	margin: 0px 15px; 
+}
+nav a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing:.3em;
+
+	
+
+}
+/*first sec*/
+.df{
+	display: flex;
+	
+}
+/* .preload{
+	background-image: url(../images/first-project-lp_02.jpg);
+	background-repeat: no-repeat;
+	
+} */
+.preload{
+	/* display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	 */
+
+	 display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	padding: 5%;
+	
+}
+/**
+about team
+
+*/
+.preload1{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	padding: 5%;
+}
+.AboutStudio{
+	padding: 100px 0 140px 0;
+	background-color: #fff;
+}
+.fotoTeam{
+	max-width: 320px;
+	width: 100%;
+	margin-top: 25px;
+
+}
+.AboutStudioHeader{
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	font-family:'Dosis', sans-serif;
+	padding: 0 2% 100px 2%;
+}
+.ourTeam{
+	width: 100%;
+}
+.ourTeamP{
+	padding: 0 2% 0 2%;
+	font-family: 'Times New Roman', Times, serif;
+	 
+
+}
+
+.quoteOwner{
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: .2em;
+	font-size: 11px;
+	padding-top: 15px;
+	
+}
+.nameOfWorker{
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	font-size: 15px;
+	text-align: center;
+	padding: 30px 0 15px 0;
+}
+.jobOfWorker{
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/**
+media quaers
+*/
+
+
+/* our Team */
+@media(min-width: 668px){
+	.ourTeam{
+		
+		width: 50%;
+	
+	}
+}
